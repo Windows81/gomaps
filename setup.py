@@ -13,7 +13,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type = "text/markdown",
     url = "https://github.com/jakeee51/gomaps",
-    install_requires = ["requests_html", "pyppdf", "GeoLiberator"],
+    install_requires = ["requests_html", "pyppdf @ git+https://github.com/Azurency/pyppdf.git", "GeoLiberator"],
     packages = setuptools.find_packages(),
     py_modules = ["gmapss", "utils"],
     classifiers = [
